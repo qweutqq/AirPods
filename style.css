@@ -368,15 +368,14 @@ footer{
     }
 
     .welcome-title{
-        width: auto;
+        width: auto;    
         font-size: 80px;
         position: relative;
-        left: -3%;
     }
 
     .welcome a{
         position: relative;
-        left: 25%;
+        left: 29%;
     }
 
     .cards{
@@ -390,7 +389,7 @@ footer{
     }
 
     .footer-names{
-        left:-2%    
+        left:-2%;
     }
 
     .icons{
