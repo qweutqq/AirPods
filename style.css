@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    /*  font-family: "Prosto One", sans-serif;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 240px;
+}
+
+
+.nav-bar{
+    background-color:#282828;
+    width: 100vw;
+    height: 65px;
+    max-width: 100%;
+}
+
+.nav-holder{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.names{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+}
+
+.names a:hover{
+    color: #cccccc;
+    transform: scale(0.95);
+}
+
+.names a{
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.icons{
+    width: 4.5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.icon1,
+.icon2{
+    transition: all 0.2s ease;
+}
+
+.icon1:hover,
+.icon2:hover{
+    transform: scale(1.1);
+}
+
+.welcome{
+    width: 100%;
+    height: 75vh;
+    background: url('images/Header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title{
+    color: #fff;
+    font-family: "Prosto One", sans-serif;
+    font-size: 100px;
+    padding-bottom: 38px;
+}
+
+.of-site{
+    color:#171718;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 11px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    left: 36%;
+    transition: all 0.2s linear;
+}
+
+.of-site:hover{
+    background-color: #cccccc;
+}
+
+main{
+    background-color: rgb(20, 20, 20);
+    height: 100%;
+}
+
+.desc{
+    color: #fff;
+}
+
+.card1{
+    width: auto;
+    padding-top: 15%;
+}
+
+.card1-desc{
+    width: 25vw;
+    height: 20%;
+    margin-top: 7%;
+    margin-right: 10%;    
+}
+
+.card1,
+.card2,
+.card3{
+    display: flex;
+    width: auto;
+    position: relative;
+    left: 10%;
+}
+
+.card2{
+    margin-top: 5%;
+}
+
+.card2-desc{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 25vw;
+}
+
+.card3{
+    margin-top: 5%;
+}
+
+.card3-desc{
+    width: 20%;
+    margin-top: 11%;
+    margin-right: 10%;
+}
+
+
+
+.card3-desc::after{
+    content: '';
+    background-color: #fff;
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    top: 200px;
+    left: 265px;
+}
+
+.card3-desc2{
+    width: 20%;
+    margin-top: 18%;
+    margin-left: 12%;
+}
+
+.card3-desc2::before{
+    content: '';
+    background-color: #fff;
+    width: 130px;
+    height: 2px;
+    position: absolute;
+    top: 300px;
+    left: 680px;
+}
+
+.iphones{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.iphone-card{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 18%;
+    height: 300px;
+}
+
+.iphone-holder{
+    padding-top: 5%;
+}
+
+.iphone-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.iphone-desc{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.iphone-holder a{
+    margin-left: 18%;
+    padding: 7px 57px;
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.iphone-holder img{
+    padding-bottom: 10px;
+}
+
+.i1 img{
+    position: relative;
+    left: 25%;
+}
+
+.i2 img{
+    position: relative;
+    left: 30%;
+}
+
+.i3 img{
+    position: relative;
+    left: 29%;
+}
+
+.i4 img{
+    position: relative;
+    left: 27%;
+}
+
+footer{
+    width: 100vw;
+    height: 215px;
+    background-color: 
+    #282828;
+    max-width: 100%;
+}
+
+.footer-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
